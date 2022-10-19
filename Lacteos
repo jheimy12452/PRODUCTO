@@ -1,0 +1,11 @@
+public  class Lacteos extends Mercaderia  {
+    String nombre;
+
+    public Lacteos(String nombre) {
+        this.nombre = nombre;
+    }
+ public String comprar(){
+     String s = nombre + " " + super.comprar();
+     return s;
+ }
+}
