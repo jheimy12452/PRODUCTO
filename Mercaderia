@@ -1,0 +1,19 @@
+public  class Mercaderia implements IMercaderia {
+    public String comprar(){
+        System.out.println("producto:...");
+
+        return null;
+    }
+
+
+    public void ingresar(){
+        System.out.println("ingresado");
+    }
+
+
+    public void darDeBaja(){
+        System.out.println("dadobaja");
+    }
+
+
+}
