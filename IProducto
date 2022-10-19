@@ -1,0 +1,5 @@
+public interface IProducto {
+    public double ingresar();
+    public double darDeBaja();
+
+}
