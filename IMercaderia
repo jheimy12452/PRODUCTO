@@ -1,0 +1,4 @@
+public interface IMercaderia {
+    public String comprar();
+
+}
