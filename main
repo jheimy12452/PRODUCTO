@@ -1,0 +1,8 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        Lacteos m = new Lacteos("LECHE DESLACTOSADA");
+        System.out.println(m.comprar());
+    }
+}
