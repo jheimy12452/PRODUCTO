@@ -1,0 +1,17 @@
+public abstract class Producto implements IMercaderia {
+    public String nombre;
+    public String obtenerTipoProducto;
+    public int stock;
+    public abstract int verificarExistencia();
+
+    public String comprar() {
+        System.out.println("compra");
+
+        return null;
+    }
+
+    protected String nombre() {
+
+        return null;
+    }
+}
